@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="Second">
+    <div>
+        <div class="start">
+            <header>
+                <nav>
+                    <div class="ltext">
+                    <img src="Dreamy.jpeg" alt="logo" class="logo">BookStore
+                    </div>
+                    <ul>
+                        <li><a href="Contacts.html" class="contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div><br>
+        <div>
+            <div class="login">
+                <p><h1>Welcome back to your favorite online <b>BookStore!</b></h1><hr>
+                    Log in to access your personalized recommendations, 
+                    track your orders, and enjoy seamless shopping. 
+                    Discover new arrivals, exclusive offers,and the latest book releases tailored just for you.
+                    Don't have an account yet? 
+                    Sign up now to join our community of book lovers and unlock special benefits.<br>
+                    <h3>Dive into a world of stories, knowledge, and adventure with just a click!</h3></p>
+            </div><br>
+            <div class="subscrption">
+            <form id="subscription-form">
+                <table>
+                    <tr>
+                    <td><label for="name">Name</label></td>
+                    <td><input type="text" id="name" name="name" required></td>
+                    </tr>
+                    <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                    <td><label for="genre">Favourite Genre</label></td>
+                    <td>
+                        <input type="text" id="genre" name="genre" list="genre-list">
+                    <datalist id="genre-list">
+                        <option value="Fiction">
+                        <option value="Non-Fiction">
+                        <option value="Science Fiction">
+                        <option value="Fantasy">
+                        <option value="Mystery">
+                        <option value="Biography">
+                    </datalist>
+                    </td>
+                    </tr>
+                </table><br>
+                <input type="checkbox" id="newsletter" name="newsletter" class="check">
+                <label for="newsletter" class="subs">Subscribe to our newsletter via email</label><br>
+                <button type="submit">Submit</button>
+            </form>
+            </div>
+        </div><br>
+        <script src="script.js"></script>
+        <div class="last">
+            <footer>&copyAll Rights Resolved</footer>
+        </div>
+    </div>
+</body>
+</html>
